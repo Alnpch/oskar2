@@ -1,0 +1,92 @@
+.navbar {
+  margin: 24px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.logo__img {
+  width: 200px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 49px;
+}
+
+.menu__link {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 49px;
+  color: #63136e;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  width: 0;
+  height: 2px; /* Высота линии */
+  background-color: rgb(
+    220,
+    40,
+    184
+  ); /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
+.menu__link:hover::after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 2px; /* Высота линии */
+  background-color: rgb(
+    240,
+    232,
+    237
+  ); /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s;
+}
+
+.menu__tel {
+  font-size: 14px;
+  text-decoration: none;
+  color: #63136e;
+}
+
+.menu__tel:hover {
+  color: #9c48a7;
+}
+
+.menu__time {
+  width: 200px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #63136e;
+}

@@ -1,0 +1,18 @@
+.App {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: radial-gradient(
+      118.65% 187.69% at -15.31% -12.74%,
+      #ffffff 7%,
+      #faf9fb 9%,
+      #d2c7de 31%,
+      #baa8cc 47%,
+      #b19dc6 56%,
+      #a89ac4 65%,
+      #9294bf 79%,
+      #6d8bb7 96%,
+      #6589b6 99%
+    );
+}
