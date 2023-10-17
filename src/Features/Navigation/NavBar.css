@@ -1,12 +1,12 @@
 .navbar {
-  margin: 24px;
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .logo__img {
   width: 200px;
+  margin: 24px;
 }
 
 .menu {
