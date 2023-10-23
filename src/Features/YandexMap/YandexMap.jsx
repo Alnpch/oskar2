@@ -63,6 +63,7 @@ function YandexMap() {
             ></iframe>
           </div> */}
     </div>
+    
   );
 }
 

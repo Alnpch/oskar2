@@ -4,6 +4,7 @@ import YandexMap from "../Features/YandexMap/YandexMap";
 import "./App.css";
 import images from "../Features/img/images";
 import Footer from "../Features/Footer/Footer";
+import Services from '../Features/Services/Services';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
           return <img key={index} src={image.imgURL} alt={image.imgAlt} />;
         })}
       </Slider>
+      <Services />
       <YandexMap />
+
       <Footer />
     </div>
   );

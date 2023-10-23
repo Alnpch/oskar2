@@ -6,6 +6,7 @@
 
 .logo__img {
   width: 200px;
+  height: 200px;
   margin: 24px;
 }
 
@@ -84,7 +85,7 @@
 }
 
 .menu__time {
-  width: 200px;
+  width: 150px;
   font-weight: 400;
   font-size: 20px;
   line-height: 29px;
