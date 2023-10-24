@@ -5,7 +5,7 @@ import "./App.css";
 import images from "../Features/img/images";
 import Footer from "../Features/Footer/Footer";
 import Services from '../Features/Services/Services';
-
+import Doctors from '../Features/Doctors/Doctors';
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
         })}
       </Slider>
       <Services />
+      <Doctors />
       <YandexMap />
 
       <Footer />

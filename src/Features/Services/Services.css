@@ -1,0 +1,67 @@
+.praiseTable__name {
+    flex-basis: 78%;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: #181818;
+    font-family: 'ralewayregular',sans-serif;
+    display: flex;
+}
+.praiseTable__nameGroup {
+    background: #d82043;
+    color: white;
+    font-size: 17px;
+    padding: 8px 15px;
+    text-align: center;
+    
+}
+.servPriceNewTable {
+    display: flex;
+}
+.praiseTable__nameGroup {
+    background: #be68be;
+    color: white;
+    font-size: 17px;
+    padding: 8px 15px;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+.praiseTable__list {
+    background: white;
+}
+.praiseTable__row.odd {
+    background: #f2f2f2;
+}
+.praiseTable__row.even {
+    background: #FFFFFF;
+}
+.praiseTable__row {
+    display: flex;
+}
+.praiseTable__delimiter {
+    flex-basis: 100%;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: #474747;
+    font-family: 'ralewayregular',sans-serif;
+    display: flex;
+   
+}
+.heading{
+    margin: 0 0 20px;
+    
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    line-height: 28px;
+    font-weight: 300;
+  font-size: 30px;
+  line-height: 49px;
+  color: #63136e;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+}
+.praiseTable{
+    width: 900px;
+margin-left: 250px;
+
+}

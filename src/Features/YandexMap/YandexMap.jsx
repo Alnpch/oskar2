@@ -1,35 +1,48 @@
 import React from "react";
 import { Map, Placemark, TrafficControl, YMaps } from "@pbe/react-yandex-maps";
-import './YandexMap.css'
+import "./YandexMap.css";
 
 function YandexMap() {
+  const margin = {
+    margin: "5px 0px",
+  };
   return (
-    <div className="yandexmap">
-      <YMaps
-        query={{
-          // ns: 'use-load-option',
-          load: "Map,Placemark,control.ZoomControl,control.FullscreenControl,geoObject.addon.balloon",
-        }}
-      >
-        <Map
-          defaultState={{
-            center: [59.952254, 30.408395],
-            zoom: 15,
-            controls: ["zoomControl", "fullscreenControl"],
+    <div className="contacts">
+      <h2 className="heading">Контакты</h2>
+      <div className="yandexmap">
+        <div className="contacts-box">
+          <h1 style={margin}>Как нас найти:</h1>
+          <h2 style={margin}>Свердловская набережная, 62</h2>
+          <p style={margin}>
+            Ближайшие станции метро: Новочеркасская и Ладожская
+          </p>
+        </div>
+
+        <YMaps
+          query={{
+            // ns: 'use-load-option',
+            load: "Map,Placemark,control.ZoomControl,control.FullscreenControl,geoObject.addon.balloon",
           }}
-          width={560}
-          height={400}
         >
-          <Placemark
-            defaultGeometry={[59.952254, 30.408395]}
-            properties={{
-              balloonContentBody: "Свердловская набережная, 62",
+          <Map
+            defaultState={{
+              center: [59.952254, 30.408395],
+              zoom: 15,
+              controls: ["zoomControl", "fullscreenControl"],
             }}
-          />
-          <TrafficControl />
-        </Map>
-      </YMaps>
-      {/* <div className="widgets center">
+            width={560}
+            height={400}
+          >
+            <Placemark
+              defaultGeometry={[59.952254, 30.408395]}
+              properties={{
+                balloonContentBody: "Свердловская набережная, 62",
+              }}
+            />
+            <TrafficControl />
+          </Map>
+        </YMaps>
+        {/* <div className="widgets center">
           <div className="yamap">
             <a
               href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
@@ -62,8 +75,8 @@ function YandexMap() {
               style={{ position: "relative" }}
             ></iframe>
           </div> */}
+      </div>
     </div>
-    
   );
 }
 
