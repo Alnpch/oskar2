@@ -27,7 +27,7 @@
 .footer__tel {
   font-size: 25px;
   text-decoration: none;
-  color: #151515;
+  color: #d6a5e8;
 }
 
 .footer__time {
@@ -37,7 +37,7 @@
   font-weight: 300;
   font-size: 15px;
   line-height: 29px;
-  color: #000000;
+  color: #d6a5e8;
 }
 
 .footer__tel:hover {
@@ -46,7 +46,9 @@
 .heading-foot{
   font-size: 15px;
   margin: 5px 0px;
+  color: #9c48a7;
 }
+
 .logo__img-foot{
   width: 150px;
   height: 200px;
@@ -55,7 +57,12 @@
 .logo__img-foot-link{
   width: 30px;
 }
+
 .foot-link{
   display: flex;
   gap: 10px;
+}
+.oscar-footer{
+  /* padding-top: 60px; */
+  color: #000000;
 }

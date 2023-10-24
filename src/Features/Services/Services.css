@@ -46,9 +46,9 @@
     display: flex;
    
 }
-.heading{
+.heading-services{
     margin: 0 0 20px;
-    
+    padding-left: 300px;
     font-weight: bold;
     /* text-transform: uppercase; */
     line-height: 28px;

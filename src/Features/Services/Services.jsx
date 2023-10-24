@@ -4,7 +4,7 @@ import "./Services.css";
 function Services() {
   return (
     <div className="praiseTable">
-        <h2 className="heading">Цены на пародонтологию</h2>
+        <h2 className="heading-services">Цены на пародонтологию</h2>
       <div>
         <div>
           <div className="praiseTable__group">

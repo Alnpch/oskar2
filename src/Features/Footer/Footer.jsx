@@ -9,6 +9,8 @@ function Footer() {
       <a href="">
         <img className="logo__img-foot" src={logo} alt="Оскар Гранд" />
       </a>
+      <p className="oscar-footer"> © Гранд Оскар 2023</p>
+     
       <div className="footer__contact">
         <a className="footer__tel" href="tel:+79088008080">
           +7 908 800 80 80

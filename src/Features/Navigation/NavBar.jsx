@@ -20,10 +20,10 @@ function NavBar() {
             ВРАЧИ
           </a>
           <a className="menu__link" href="">
-            КОНТАКТЫ
+            СТАТЬИ
           </a>
           <a className="menu__link" href="">
-            СТАТЬИ
+            КОНТАКТЫ
           </a>
         </div>
         <div className="menu-contact">

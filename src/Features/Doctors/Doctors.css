@@ -12,7 +12,7 @@
 }
 .heading-doc {
   margin: 0 0 20px;
-  margin-left: 250px;
+  padding-left: 650px;
   font-weight: bold;
   /* text-transform: uppercase; */
   line-height: 28px;
@@ -25,8 +25,13 @@
   cursor: pointer;
 }
 .doctors-pro {
-  color: #931ba3;
+  color: #390540;
 }
 .doctors-name {
   color: #63136e;
+  
+}
+.doctors-pro-name{
+  color: #000000;
+  width: 400px;
 }
